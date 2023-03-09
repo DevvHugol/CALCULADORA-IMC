@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".ResultActivity">
+
+<TextView
+    android:id="@+id/seu_imc_e"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="30dp"
+    android:text="Seu IMC é:"
+    android:textAlignment="center"
+    android:textColor="@color/material_dynamic_primary20"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textview_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:textColor="@color/purple_700"
+    android:textAlignment="center"
+    android:textSize="38sp"
+    tools:text="27.104" />
+
+<TextView
+    android:id="@+id/textview_classificacao"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:textColor="@color/purple_500"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    tools:text="Classificação: Normal" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="40dp"
+    android:text="TABELA DE CLASSIFICAÇÃO:" />
+
+<TextView
+    android:layout_width="351dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text=" IMC MENOR QUE 18,5	=	ABAIXO DO PESO	" />
+
+<TextView
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:text=" IMC ENTRE 18,5 E 24,9 =	NORMAL	 " />
+
+<TextView
+    android:layout_width="373dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:text=" IMC ENTRE 25,0 E 29,9 =	SOBREPESO	" />
+
+<TextView
+    android:layout_width="373dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:text="IMC ENTRE 30,0 E 39,9 =	OBESIDADE" />
+
+<TextView
+    android:layout_width="373dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:text="IIMC MAIOR QUE 40,0	 =	OBESIDADE GRAVE" />
+
+</LinearLayout>
